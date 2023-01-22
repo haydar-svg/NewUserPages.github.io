@@ -1,0 +1,128 @@
+.signUp {
+    width: 350px;
+    height: 500px;
+    border-radius: 7px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 10px 2px rgba(58, 58, 58, 0.185);
+    background-color: #fff;
+}
+
+.freeTrialMsg {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-left: 10%;
+    color: #555;
+    padding-top: 70px;
+}
+
+.signWithAnotherAcount {
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.signWithAnotherAcount>div {
+    width: 49%;
+    height: 40px;
+    border: 2px rgba(56, 56, 56, 0.151) solid;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signWithAnotherAcount>div:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+
+.signWithAnotherAcount>div>img {
+    width: 30px;
+}
+
+.signWithAnotherAcount>div>p {
+    font-size: 16px;
+    color: #444;
+    padding: 3px;
+    padding-right: 5px;
+}
+
+.orContainer {
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.orContainer>div {
+    width: 40%;
+    height: 1px;
+    border-top: 1px rgba(0, 0, 0, 0.295) solid;
+}
+
+.orContainer>p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.input:nth-of-type(1) {
+    margin-top: 30px;
+}
+
+.input {
+    width: 80%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 7px;
+    border: 2px rgba(54, 54, 54, 0.281) solid;
+    margin-top: 10px;
+    padding-left: 8px;
+    color: #333;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+.logButton {
+    width: 80%;
+    height: 35px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 0px;
+    margin-top: 15px;
+    background-color: rgb(0, 132, 255);
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.forgotPsw {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(17, 53, 87, 0.562);
+    padding-top: 20px;
+    text-transform: none;
+}
+
+.forgotPsw>span {
+    font-size: 16px;
+    color: rgba(3, 9, 14, 0.87);
+    cursor: pointer;
+    text-transform: capitalize;
+}

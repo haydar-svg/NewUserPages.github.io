@@ -1,0 +1,163 @@
+.logIn {
+    width: 350px;
+    height: 500px;
+    border-radius: 7px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 10px 2px rgba(58, 58, 58, 0.185);
+    background-color: #fff;
+}
+
+.logInTitle {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-left: 10%;
+    color: #555;
+    padding-top: 70px;
+}
+
+.inputContainer {
+    width: 80%;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputContainer>div:first-of-type {
+    width: 15%;
+    height: 100%;
+    border: 2px rgba(0, 0, 0, 0.151) solid;
+    border-radius: 7px 0 0 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0px;
+}
+
+.inputContainer>div:nth-of-type(2) {
+    width: 10%;
+    height: 100%;
+    border: 2px rgba(0, 0, 0, 0.151) solid;
+    border-radius: 0 7px 7px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 0px;
+}
+
+.inputContainer>div>img {
+    width: 20px;
+}
+
+.inputContainer>div:nth-of-type(2)>img {
+    width: 17px;
+    display: none;
+}
+
+.inputContainer>input {
+    width: 75%;
+    height: 100%;
+    border: 2px rgba(0, 0, 0, 0.151) solid;
+    border-left: 0px;
+    border-right: 0px;
+    color: #444;
+    text-transform: none;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.tow {
+    margin-top: 15px;
+}
+
+.logButton {
+    width: 80%;
+    height: 40px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 0px;
+    margin-top: 15px;
+    background-color: rgb(0, 132, 255);
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.forgotPsw {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgba(17, 53, 87, 0.562);
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.forgotPsw:hover {
+    color: rgba(1, 6, 10, 0.829);
+}
+
+.orContainer {
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.orContainer>div {
+    width: 40%;
+    height: 1px;
+    border-top: 1px rgba(0, 0, 0, 0.295) solid;
+}
+
+.orContainer>p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.logWithAnotherAcount {
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logWithAnotherAcount>div {
+    width: 49%;
+    height: 40px;
+    border: 2px rgba(0, 0, 0, 0.151) solid;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logWithAnotherAcount>div:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+
+.logWithAnotherAcount>div>img {
+    width: 30px;
+}
+
+.logWithAnotherAcount>div>p {
+    font-size: 16px;
+    color: #444;
+    padding: 3px;
+    padding-right: 5px;
+}

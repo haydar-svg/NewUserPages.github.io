@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+    <link rel="stylesheet" href="./LogIn.css">
+    <link rel="stylesheet" href="./SignUp.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div class="AcountActions">
+        <div class="logIn">
+            <p class="logInTitle">
+                log in
+            </p>
+            <div class="inputContainer">
+                <div>
+                    <img src="./images/email.svg" alt="email">
+                </div>
+                <input type="text" placeholder="email " oninput="checkGmailChar(this)">
+                <div>
+                    <img src="" alt="email">
+                </div>
+            </div>
+            <div class="inputContainer tow">
+                <div>
+                    <img src="./images/password.svg" alt="password">
+                </div>
+                <input type="password" placeholder="password" oninput="checkPasswordChar(this)">
+                <div>
+                    <img src="" alt="email">
+                </div>
+            </div>
+            <button class="logButton">
+                log in
+            </button>
+            <p class="forgotPsw">
+                forgot password ?
+            </p>
+            <div class="orContainer">
+                <div></div>
+                <p>or</p>
+                <div></div>
+            </div>
+            <div class="logWithAnotherAcount">
+                <div>
+                    <img src="./images/icons8-google.svg" alt="google">
+                    <p>google</p>
+                </div>
+                <div>
+                    <img src="./images/icons8-facebook.svg" alt="facebook">
+                    <p>facebook</p>
+                </div>
+            </div>
+        </div>
+        <!-- /////////////////////// -->
+        <div class="signUp">
+            <p class="freeTrialMsg">
+                sign up with
+            </p>
+            <div class="signWithAnotherAcount">
+                <div>
+                    <img src="./images/icons8-google.svg" alt="google">
+                    <p>google</p>
+                </div>
+                <div>
+                    <img src="./images/icons8-facebook.svg" alt="facebook">
+                    <p>facebook</p>
+                </div>
+            </div>
+            <div class="orContainer">
+                <div></div>
+                <p>or</p>
+                <div></div>
+            </div>
+            <input type="text" placeholder="username" class="input">
+            <input type="text" placeholder="email" class="input">
+            <input type="password" placeholder="password" class="input">
+            <button class="logButton">
+                create account
+            </button>
+            <p class="forgotPsw">
+                already have an account?
+                <span>Log in</span>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
